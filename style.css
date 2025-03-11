@@ -177,6 +177,10 @@ h1 {
     .slots {
         font-size: 2.5rem;
     }
+    
+    .slot-name {
+        font-size: 2rem;
+    }
 
     .slot-title {
         font-size: 2rem;
@@ -199,10 +203,6 @@ h1 {
     }
 
     .disabled{
-        font-size: 2rem;
-    }
-
-    p {
         font-size: 2rem;
     }
 }
