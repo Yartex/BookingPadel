@@ -201,4 +201,8 @@ h1 {
     .disabled{
         font-size: 2rem;
     }
+
+    p {
+        font-size: 2rem;
+    }
 }
