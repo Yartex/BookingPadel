@@ -20,8 +20,6 @@ h1 {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 90%; /* Largeur adaptable */
-    max-width: 500px; /* Largeur maximale */
 }
 
 #datePicker {
@@ -29,17 +27,14 @@ h1 {
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-bottom: 15px;
-    width: 100%; /* Occupe toute la largeur disponible */
 }
 
 #slotsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    width: 100%; /* Largeur adaptable */
 }
 
-/* Bouton général */
 button {
     padding: 10px;
     border: none;
@@ -47,14 +42,12 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    width: 100%; /* Prendre toute la largeur */
 }
 
 button:hover {
     opacity: 0.8;
 }
 
-/* Couleur du bouton */
 .bg-green-500 {
     background-color: #28a745;
     color: white;
@@ -79,25 +72,10 @@ button:hover {
     }
 
     .container {
-        padding: 15px; /* Réduction du padding sur petits écrans */
+        padding: 15%; /* Réduction du padding sur petits écrans */
     }
 
     button {
-        font-size: 14px; /* Taille de police plus petite sur mobile */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    /* Sur très petits écrans (mobiles) */
-    h1 {
-        font-size: 20px; /* Réduction de la taille du titre */
-    }
-
-    .container {
-        width: 95%; /* Prendre presque toute la largeur de l'écran */
-    }
-
-    button {
-        padding: 8px; /* Réduction du padding pour plus d'espace */
+        font-size: 14%; /* Taille de police plus petite sur mobile */
     }
 }
