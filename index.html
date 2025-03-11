@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="logopadel.png">
+    <link rel="icon" type="image/png" href="images/logopadel.png">
     <meta charset="utf-8">
     <script defer src="script.js"></script>
     <title>Booking Padel</title>
 </head>
 <body>
-    <h1 class="text-2xl font-bold mb-6">Réservation 🎾</h1>
-    
-    <div class="p-6 mb-6 bg-white shadow-md rounded-lg w-80 text-center">
-        <h2 class="text-lg font-semibold mb-4">Date :</h2>
-        <input type="date" id="date" class="border rounded-md p-2 w-full">
+    <div class="main">
+        <h1 class="title">Réservation 🎾</h1>
+        <br>
+        <center><input type="date" id="date" class="input_date"></center>
+        <br>
+        <div id="slots" class="slots"></div>
     </div>
-    
-    <h2 class="text-lg font-semibold mb-4">Créneaux :</h2>
-    <div id="slots" class="grid grid-cols-2 gap-4 w-80"></div>
 </body>
+</html>
